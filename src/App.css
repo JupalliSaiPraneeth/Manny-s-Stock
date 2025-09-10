@@ -61,7 +61,7 @@ left: 45%; */
 
 .profile-card{
   height: 20vh;
-  width: 90vw;
+  width: 100vw;
   display: flex;
 }
 .profile-card img{
@@ -75,6 +75,7 @@ left: 45%; */
 }
 .bio{
   margin: 1rem;
+  margin-left: 2rem;
   /* font-family: cursive; */
 }
 hr{
@@ -112,6 +113,18 @@ hr{
   text-align: center;
    /* font-family: "Bungee", sans-serif ; */
 }
+/* --------------------Trending */
+.trending{
+  display: grid;
+   grid-template-columns: repeat(5, 1fr);
+   /* grid-template-columns: repeat(auto-fit, minmax(350px,1fr)); */
+   gap: 0.5rem;
+   margin: 0.5rem;
+   margin-bottom: 2rem;
+}
+.trend-tag{
+  margin: 1rem;
+}
 
 
 
@@ -122,9 +135,12 @@ hr{
   .wrapper {
     grid-template-columns: repeat(2, 1fr) !important;
   }
+  .trending{
+     grid-template-columns: repeat(2, 1fr) !important;
+  }
   .title-name {
     font-size: 1.8rem;
-    margin: 0.5rem;
+    margin: 1rem;
     /* text-align: center; */
   }
   .profile-card {
