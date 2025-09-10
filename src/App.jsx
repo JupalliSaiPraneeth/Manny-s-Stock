@@ -4,6 +4,7 @@ import React from "react";
 import "./App.css";
 import ProfileCard from "./Components/ProfileCard.jsx";
 import StoryGrid from "./Components/StoryGrid.jsx";
+import New from "./Components/New.jsx";
 
 // const storiesData = [
 //   {
@@ -57,7 +58,10 @@ function App() {
       </div>
     
       <hr />
+      
       <ProfileCard/>
+      <h2 className="trend-tag">Trending</h2>
+      <New/>
       <StoryGrid/>
     </div>
    </div>
