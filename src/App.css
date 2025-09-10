@@ -118,10 +118,7 @@ hr{
 /* -------------Responsive----------- */
 
 @media (max-width: 480px) {
-  .home-page{
-    position: relative;
-    top: -9rem;
-  }
+ 
   .wrapper {
     grid-template-columns: repeat(2, 1fr) !important;
   }
