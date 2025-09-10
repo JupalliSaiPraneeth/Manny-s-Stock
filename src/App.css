@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Shafarik&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* .home_title{
+  position: relative;
+  top: 5rem;
+} */
+ .home-page{
+/* position: relative;
+left: 45%; */
+  
+ }
+.title-name{
+  position: relative;
+  /* color:cornflowerblue; */
+  margin-left: 2rem;
+  /* font-family: "Bungee", sans-serif ; */
+  /* animation: colors 5s ease-in-out infinite both; */
+}
+@keyframes colors{
+  0%{
+     color: rgba(255, 0, 0, 0.918);
+  }
+  10%{
+     color: rgba(0, 255, 255, 0.842);
+  }
+  20%{
+    color: rgba(128, 255, 0, 0.86);
+  }
+  30%{
+    color: rgba(0, 0, 139, 0.908);
+  }
+  40%{
+    color: rgba(220, 20, 60, 0.941);
+  }
+  50%{
+    color: rgba(76, 0, 130, 0.914);
+  }
+  60%{
+    color: pink;
+  }
+  70%{
+    color: rgba(127, 255, 212, 0.864);
+  }
+  80%{
+    color: gold;
+  }
+  90%{
+    color: paleturquoise;
+  }
+  100%{
+   color: cornsilk;
+  }
+}
+
+/* -------------------------------------Profile card */
+
+.profile-card{
+  height: 20vh;
+  width: 90vw;
+  display: flex;
+}
+.profile-card img{
+  height: 25vh;
+  border-radius: 100%;
+
+  margin: 1rem;
+  object-position: center;
+  width: 10rem;
+  
+}
+.bio{
+  margin: 1rem;
+  /* font-family: cursive; */
+}
+hr{
+  opacity: 0.4;
+}
+
+/* -------------------StoryGrid */
+
+.wrapper{
+   display: grid;
+   grid-template-columns: repeat(5, 1fr);
+   /* grid-template-columns: repeat(auto-fit, minmax(350px,1fr)); */
+   gap: 0.5rem;
+   margin: 0.5rem;
+   margin-bottom: 2rem;
+}
+.box{
+            padding: 1rem;
+            border: 2px solid black;
+
+            border-radius: 1rem;
+            display: grid;
+            grid-template-rows: subgrid;
+            grid-row: span 3;
+           
+}
+.box:hover{
+  transform: translateY(-5px);
+}
+.cover-pic{
+  height: 50vh;
+  width: 100%;
+}
+.story-title{
+  text-align: center;
+   /* font-family: "Bungee", sans-serif ; */
+}
+
+
+
+/* -------------Responsive----------- */
+
+@media (max-width: 480px) {
+  .home-page{
+    position: relative;
+    top: -9rem;
+  }
+  .wrapper {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+  .title-name {
+    font-size: 1.8rem;
+    margin: 0.5rem;
+    /* text-align: center; */
+  }
+  .profile-card {
+    margin: 0.5rem;
+    padding: 1rem;
+  }
+  .bio {
+    font-size: 0.9rem;
+    margin: -0.5rem;
+    width: 100%;
+    /* text-align: center; */
+  }
+  .cover-pic {
+    max-height: 200px;
+    object-fit: cover;
+  }
+}
