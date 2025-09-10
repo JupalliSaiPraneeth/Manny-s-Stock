@@ -5,7 +5,15 @@ import React from "react";
 const ProfileCard = ()=>{
     return(
         <div className="profile-card">
-            <p className="bio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum unde temporibus aliquam tempore iusto praesentium cupiditate labore quos autem illum mollitia, ad accusantium neque consequatur, enim tenetur impedit quae incidunt.</p>
+            <p className="bio">This is my diary of unsaid feelings-some
+
+inspired, some my own.
+
+Each page holds fragments of emotions I never spoke aloud, stitched into words instead.
+
+Here, silence turns into whispers, and whispers grow into stories.
+
+Some are soft like dawn, some heavy as midnight, yet all are meant to be felt. If you read them, you're not just entering my words-you're stepping into the spaces of me I could never say out loud.</p>
             
         </div>
     );
