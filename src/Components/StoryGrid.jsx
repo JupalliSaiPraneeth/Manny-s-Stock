@@ -1,9 +1,9 @@
 import React from "react";
-import Buttabomma from "../assets/Buttabomma.jpg";
-import Ghost from "../assets/Dance_ghost.jpg";
-import Killme from "../assets/killme.jpg";
-import Blue from "../assets/Blueboy.jpg";
-import Sunshine from "../assets/sunshine.jpg";
+import Buttabomma from "./Buttabomma.jpg";
+import Ghost from "./Dance_ghost.jpg";
+import Killme from "./killme.jpg";
+import Blue from "./Blueboy.jpg";
+import Sunshine from "./sunshine.jpg";
 
 const StoryGrid = () => {
   return (
