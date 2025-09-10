@@ -3,7 +3,7 @@ import Buttabomma from "./Buttabomma.jpg";
 import Ghost from "./Dance_ghost.jpg";
 import Killme from "./Killme.jpg";
 import Blue from "./Blueboy.jpg";
-import Sunshine from "./sunshine.jpg";
+
 
 const StoryGrid = () => {
   return (
@@ -32,12 +32,7 @@ const StoryGrid = () => {
         <img className="cover-pic" src={Killme} alt="Kill Me Softly" />
       </div>
 
-      <div className="box box5">
-        <h2 className="story-title">The day i met sunshine</h2>
-        <a href="https://www.wattpad.com/story/401313025?utm_source=android&utm_medium=link&utm_content=share_reading&wp_page=reading&wp_uname=MrManny5" target="_blank" rel="noopener noreferrer">
-          <img className="cover-pic" src={Sunshine} alt="Sunshine" />
-        </a>
-      </div>
+     
     </div>
   );
 };
