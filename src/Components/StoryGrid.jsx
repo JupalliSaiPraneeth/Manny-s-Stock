@@ -1,7 +1,7 @@
 import React from "react";
 import Buttabomma from "./Buttabomma.jpg";
 import Ghost from "./Dance_ghost.jpg";
-import Killme from "./killme.jpg";
+import Killme from "./Killme.jpg";
 import Blue from "./Blueboy.jpg";
 import Sunshine from "./sunshine.jpg";
 
