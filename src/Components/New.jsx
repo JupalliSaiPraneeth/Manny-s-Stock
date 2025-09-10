@@ -1,5 +1,5 @@
 import React from "react";
-import Sunshine from "../assets/sunshine.jpg";
+import Sunshine from "./sunshine.jpg";
 
 // eslint-disable-next-line react-refresh/only-export-components
 const New = ()=> {
