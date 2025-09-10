@@ -33,7 +33,7 @@ const StoryGrid = () => {
       </div>
 
       <div className="box box5">
-        <h2 className="story-title">Me and the Sunshine!</h2>
+        <h2 className="story-title">The day i met sunshine</h2>
         <a href="https://www.wattpad.com/story/401313025?utm_source=android&utm_medium=link&utm_content=share_reading&wp_page=reading&wp_uname=MrManny5" target="_blank" rel="noopener noreferrer">
           <img className="cover-pic" src={Sunshine} alt="Sunshine" />
         </a>
