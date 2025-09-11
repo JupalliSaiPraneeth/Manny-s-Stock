@@ -138,6 +138,9 @@ hr{
   .trending{
      grid-template-columns: repeat(2, 1fr) !important;
   }
+  .trend-tag{
+    margin-top: 2rem;
+  }
   .title-name {
     font-size: 1.8rem;
     margin: 1rem;
